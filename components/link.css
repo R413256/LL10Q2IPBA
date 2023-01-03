@@ -1,0 +1,11 @@
+.link-container {
+  display: flex;
+  position: relative;
+}
+.link-link {
+  color: rgb(253, 193, 3);
+  border-color: #b60000;
+  border-width: 7px;
+  margin-right: var(--dl-space-space-tripleunit);
+  background-color: rgb(182, 0, 0);
+}

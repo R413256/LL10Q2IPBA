@@ -1,0 +1,439 @@
+.our-events-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: #b60000;
+}
+.our-events-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  min-width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.our-events-link {
+  display: contents;
+}
+.our-events-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.our-events-links-container {
+  top: 48px;
+  right: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.our-events-link1 {
+  color: rgb(253, 193, 3);
+  border-color: #b60000;
+  border-width: 7px;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+  background-color: rgb(182, 0, 0);
+}
+.our-events-link2 {
+  color: rgb(253, 193, 3);
+  border-color: #b60000;
+  border-width: 7px;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+  background-color: rgb(182, 0, 0);
+}
+.our-events-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.our-events-link3 {
+  color: #fdc103;
+  border-color: #b60000;
+  border-width: 7px;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+  background-color: #b60000;
+}
+.our-events-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-events-icon {
+  width: 36px;
+  height: 36px;
+}
+.our-events-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-tripleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.our-events-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our-events-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-events-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.our-events-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-events-link4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.our-events-link5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.our-events-link6 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.our-events-features {
+  width: 100%;
+  height: 1430px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  border-color: #b60000;
+  border-width: -10px;
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: #b60000;
+}
+.our-events-text04 {
+  color: rgb(253, 193, 3);
+  width: 273px;
+  font-size: 48px;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 900;
+  line-height: 1.22;
+  border-color: #b60000;
+  border-width: 7px;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-transform: none;
+  text-decoration: none;
+  background-color: rgb(182, 0, 0);
+}
+.our-events-image1 {
+  top: 123px;
+  right: 31px;
+  width: 416px;
+  height: 640px;
+  position: absolute;
+  object-fit: cover;
+}
+.our-events-cards-container {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.our-events-heading1 {
+  top: 262px;
+  left: 458px;
+  color: rgb(253, 193, 3);
+  position: absolute;
+  font-size: 24px;
+  font-family: League Spartan;
+}
+.our-events-card {
+  width: 30%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.our-events-content-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.our-events-heading2 {
+  color: #fdc103;
+  font-size: 24px;
+  font-family: League Spartan;
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.our-events-text05 {
+  text-align: center;
+}
+.our-events-text06 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text07 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text08 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text09 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text10 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text11 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text12 {
+  color: #fdc103;
+  font-family: Montserrat;
+}
+.our-events-text14 {
+  top: 806px;
+  left: 112px;
+  color: #fdc103;
+  position: absolute;
+}
+.our-events-div {
+  left: 112px;
+  width: 1192px;
+  bottom: 151px;
+  height: 420px;
+  margin: auto;
+  position: absolute;
+}
+.our-events-text15 {
+  top: 321px;
+  left: 494px;
+  color: rgb(253, 193, 3);
+  position: absolute;
+  margin-top: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 500px;
+  margin-bottom: auto;
+}
+.our-events-text16 {
+  font-family: Montserrat;
+}
+.our-events-text17 {
+  font-family: Montserrat;
+}
+.our-events-text18 {
+  font-family: Montserrat;
+}
+.our-events-text19 {
+  font-family: Montserrat;
+}
+.our-events-text20 {
+  font-family: Montserrat;
+}
+.our-events-text21 {
+  font-family: Montserrat;
+}
+.our-events-text22 {
+  font-family: Montserrat;
+}
+.our-events-text26 {
+  top: 789px;
+  left: 700px;
+  color: rgb(0, 0, 0);
+  width: auto;
+  position: absolute;
+  text-align: center;
+  font-family: Montserrat;
+}
+.our-events-text27 {
+  color: #fdc103;
+}
+.our-events-text29 {
+  top: 666px;
+  left: 768px;
+  color: rgb(253, 193, 3);
+  width: 368px;
+  height: 139px;
+  margin: auto;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-family: League Spartan;
+  font-weight: 700;
+}
+.our-events-text30 {
+  font-size: 20px;
+}
+.our-events-text31 {
+  font-size: 20px;
+}
+@media(max-width: 1600px) {
+  .our-events-container {
+    background-color: #b60000;
+  }
+  .our-events-navbar {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--dl-color-gray-white);
+  }
+  .our-events-features {
+    position: relative;
+  }
+  .our-events-text04 {
+    top: 35px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .our-events-image1 {
+    right: 87px;
+    width: 294px;
+    bottom: 123px;
+    height: 516px;
+    position: absolute;
+    align-self: stretch;
+  }
+  .our-events-cards-container {
+    position: relative;
+  }
+  .our-events-heading1 {
+    top: 201px;
+    left: 495px;
+    color: #fdc103;
+    position: absolute;
+    font-size: 24px;
+    align-self: stretch;
+    font-style: normal;
+    font-family: Overpass;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .our-events-card {
+    top: 145px;
+    left: 0px;
+    position: absolute;
+  }
+  .our-events-heading2 {
+    color: #fdc103;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Overpass;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .our-events-text05 {
+    font-family: Montserrat;
+  }
+  .our-events-text06 {
+    color: #fdc103;
+  }
+  .our-events-text07 {
+    color: #fdc103;
+  }
+  .our-events-text08 {
+    color: #fdc103;
+  }
+  .our-events-text09 {
+    color: #fdc103;
+  }
+  .our-events-text10 {
+    color: #fdc103;
+  }
+  .our-events-text11 {
+    color: #fdc103;
+  }
+  .our-events-text12 {
+    color: #fdc103;
+  }
+}
+@media(max-width: 991px) {
+  .our-events-heading {
+    text-align: center;
+  }
+  .our-events-text04 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .our-events-navbar {
+    position: relative;
+  }
+  .our-events-links-container {
+    display: none;
+  }
+  .our-events-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-tripleunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .our-events-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .our-events-cards-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .our-events-card {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .our-events-burger-menu {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .our-events-card {
+    width: 100%;
+  }
+}
